@@ -5,7 +5,7 @@ export default function ProductTable({ products, filterText, inStockOnly }) {
     const rows = [];
     let lastCategory = null;
 
-    products.forEach((product) => {
+    products.map((product) => {
         if (
         product.name.toLowerCase().indexOf(
             filterText.toLowerCase()

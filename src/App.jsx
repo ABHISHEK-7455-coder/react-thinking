@@ -1,4 +1,4 @@
-import { Data } from './assets/Data';
+import { Data } from './Data';
 import Table from './Table';
 import './App.css'
 
